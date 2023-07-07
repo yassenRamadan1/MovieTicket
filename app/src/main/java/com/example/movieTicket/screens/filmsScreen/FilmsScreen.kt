@@ -78,7 +78,7 @@ fun FilmsScreenContent(
             HorizontalFilmsPager(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(top = 32.dp, bottom = 16.dp),
+                    .padding(top = 24.dp, bottom = 16.dp),
                 filmsUiState = state,
                 pagerState = pagerState
             ) { onClickPhoto()}
